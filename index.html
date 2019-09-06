@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-    <title>Recreation</title>
-  </head>
-  <body>
-    <header>
-      <nav class="top-nav">
-        <i class="fab fa-github class="git-icon""></i>
-        <input class="nav-search" placeholder="Search or jump to...">
-        <button class="btn btn-link">Pull requests</button>
-        <button class="btn btn-link">Issues</button>
-        <button class="btn btn-link">Marketplace</button>
-        <button class="btn btn-link">Explore</button>
-        <div class="nav-icons">
-          <i class="fas fa-bell"></i>
-          <i class="fas fa-caret-down"></i>
-          <img src="https://avatars2.githubusercontent.com/u/53839688?s=40&v=4"/>
-          <i class="fas fa-caret-down"></i>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Recreation</title>
+</head>
+
+<body>
+  <header>
+    <nav class="top-nav">
+      <i class="fab fa-github cat-icon" class="git-icon"></i>
+      <input class="nav-search" placeholder="Search or jump to...">
+      <button class="btn btn-link">Pull requests</button>
+      <button class="btn btn-link">Issues</button>
+      <button class="btn btn-link">Marketplace</button>
+      <button class="btn btn-link">Explore</button>
+      <div class="nav-icons">
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-caret-down"></i>
+        <img src="https://avatars2.githubusercontent.com/u/53839688?s=40&v=4" />
+        <i class="fas fa-caret-down"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- *************MAIN********** -->
+
+  <main class="container">
+    <div class="row">
+      <aside class="aside">
+        <div class="main-photo">
+          <img src="https://avatars0.githubusercontent.com/u/53839688?s=460&v=4" alt="">
         </div>
-      </nav>
-    </header>
+        <i class="far fa-laugh"></i>
+        <li>Set status</li>
+        <h2>Robbie Edwards</h2>
+        <h3>edwardsrob222</h3>
+        <button type="button" class="btn btn-light">Edit Profile</button>
+      </aside>
 
-         <!-- *************MAIN********** -->
-
-    <main class="container">
-      <div class="col-12 col-md-8">
-          <section id="navigation" class="row no-gutters">
-            <img class="photo" src="https://avatars0.githubusercontent.com/u/53839688?s=460&v=4"/>
-              <div class="menu">
-            <div class="col-12 col-md nav-link"><a><span>Overview</span></a></div>
-            <div class="col-12 col-md nav-link"><a><span>Repositories</span></a></div>
-            <div class="col-12 col-md nav-link"><a><span>Projects</span></a></div>
-            <div class="col-12 col-md nav-link"><a><span>Stars</span></a></div>
-            <div class="col-12 col-md nav-link"><a><span>Followers</span></a></div>
-            <div class="col-12 col-md nav-link"><a><span>Following</span></a></div>
-              </div>
-          </section>
-        </div>
-
-
+      <section>
+        <nav>
+          <ul class="top-section-navbar nav-bar">
+            <li><a href="#">Overview</a><span></span></li>
+            <li><a href="#">Repositories</a><span class="nav-counter">6</span></li>
+            <li><a href="#">Projects</a><span class="nav-counter">0</span></li>
+            <li><a href="#">Stars</a><span class="nav-counter">0</span></li>
+            <li><a href="#">Followers</a><span class="nav-counter">0</span></li>
+            <li><a href="#">Following</a><span class="nav-counter">0</span></li>
+          </ul>
+        </nav>
+      </section>
 
 
-  </body>
+
+    </div>
+
+
+
+
+
+</body>
+
 </html>

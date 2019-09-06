@@ -8,6 +8,30 @@
   color: #fff;
 }
 
-.photo {
-  width: 300px;
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-bar li {
+  margin-right: 30px;
+  padding-top: 35px;
+}
+
+.cat-icon {
+  color: #fff;
+  height: 30px;
+}
+
+.nav-search {
+  background-color: #363232;
+}
+
+.main-photo img {
+  height: 260px;
+}
+
+.button {
+  border: solid 1px #e0e0e0;
 }
