@@ -1,0 +1,13 @@
+.top-nav {
+  display: right;
+  background-color: #232928;
+  padding: 5px;
+}
+.nav-icons {
+  float: right;
+  color: #fff;
+}
+
+.photo {
+  width: 300px;
+}
