@@ -1,5 +1,5 @@
 .top-nav {
-  display: right;
+  /* display: right; */
   background-color: #232928;
   padding: 5px;
 }
@@ -14,10 +14,10 @@
   list-style: none;
 }
 
-.nav-bar li {
+/* .nav-bar li {
   margin-right: 30px;
   padding-top: 35px;
-}
+} */
 
 .cat-icon {
   color: #fff;
