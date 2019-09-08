@@ -13,13 +13,13 @@
   display: flex;
   justify-content: center;
   list-style: none;
-  border-bottom: solid 1px gray;
+  border-bottom: solid 1px #c5c9c5;
   padding-top: 25px;
   padding-bottom: 10px;
 }
 
 .repo-nav {
-  border-bottom: solid 1px gray;
+  border-bottom: solid 1px #c5c9c5;
   padding-bottom: 20px
 }
 
@@ -47,6 +47,10 @@ h5 {
   color: #fff;
 }
 
+.aside {
+  border-bottom: solid 1px #c5c9c5;
+}
+
 .aside-btn {
   background-color: #edeef2;
   color: #000;
@@ -54,9 +58,19 @@ h5 {
   text-align: center;
 }
 
+.aside-footer {
+  padding-top: 20px;
+  /* margin-left: 0; */
+}
+
+.python i {
+  width: 20px;
+}
+
+
 .marker-icon {
   padding-top: 20px;
-  display: inline-block;
+  margin-top: 20px;
 }
 
 .cat-icon {
@@ -83,7 +97,27 @@ h5 {
 }
 
 .repos {
-  border-bottom: solid 1px gray;
+  border-bottom: solid 1px #c5c9c5;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.cat-icon-2 {
+  color: black;
+}
+
+.footer {
+  display: flex;
+  border-top: solid 1px #c5c9c5;
+  padding-top: 25px;
+}
+.footer h6 {
+  padding: 10px;
+  font-size: 12px;
+}
+.footer i {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 30px;
+  color: #c5c9c5;
 }
