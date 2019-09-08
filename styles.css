@@ -35,3 +35,9 @@
 .button {
   border: solid 1px #e0e0e0;
 }
+
+.repo-btn {
+  border: solid 1px #c9ccd1;
+  height: 35px;
+  background-color: #e9ebf0
+}
