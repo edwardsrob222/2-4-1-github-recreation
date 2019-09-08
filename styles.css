@@ -16,6 +16,12 @@
   border-bottom: solid 1px #c5c9c5;
   padding-top: 25px;
   padding-bottom: 10px;
+
+}
+
+.nav-bar li {
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .repo-nav {
@@ -28,6 +34,9 @@
   padding-right: 3px;
 }
 
+.repo-search-btn {
+  float: right;
+}
 
 h3 {
   margin: 0;
@@ -94,6 +103,13 @@ h5 {
   border: solid 1px #c9ccd1;
   height: 35px;
   background-color: #e9ebf0
+}
+
+.repo-btn i {
+  font-size: 12px;
+  padding-right: 5px;
+
+
 }
 
 .repos {
