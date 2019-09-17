@@ -70,11 +70,12 @@ $(function() {
 
 
   let createRepoHTML = (res) => {
+    console.log(res);
     var source = $("#repos").text();
     var template = Handlebars.compile(source);
-    var context = {repo:res.data};
+    var context = {repos:res.data};
     var html = template(context);
-    $('.repos').html(html);
+    $('.main').append(html);
   }
 
   getRepoData.done(createRepoHTML);
