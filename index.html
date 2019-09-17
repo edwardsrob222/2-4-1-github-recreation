@@ -114,9 +114,9 @@
               <div class="col-3 d-flex justify-content-end">
                 <button class="btn repo-btn"><i class="fa fa-star"></i>Star</button>
               </div> -->
-        </div>
-        </div>
-        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
       </section>
 
       <footer class="footer">
@@ -179,21 +179,24 @@
 
 
     <script id="aside-org" type="text/x-handlebars-template">
+      {{#each org}}
       <img src={{organizations_url}} />
+      {{/each}}
     </script>
 
 
 
-
+      <!-- do i need a script around each/all repo? loop for each/all? -->
 
 
     <script id="repos" type="text/x-handlebars-template">
+      <!-- {{#each repos}} -->
       <div class="col-12">
       <div class="row  py-4">
         <div class="col-9 repos">
       <div class="col-9 repos">
-        <h5><a href="#">2-4-1-github-recreation</a></h5>
-        <span><i class="fas fa-circle repo-bullet"></i>HTML</span>
+        <h5><a href="#">{{full name}}</a></h5>
+        <span><i class="fas fa-circle repo-bullet"></i>{{language}}</span>
         <span>Updated two days ago</span>
       </div>
       <div class="col-3 d-flex justify-content-end">
@@ -204,8 +207,8 @@
       <div class="col-12">
         <div class="row  py-4">
           <div class="col-9 repos">
-            <h5><a href="#">1-3-1-vertical-timeline-edwardsrob222</a></h5>
-           <span><i class="fas fa-circle repo-bullet"></i>HTML</span>
+            <h5><a href="#">{{full name}}</a></h5>
+           <span><i class="fas fa-circle repo-bullet"></i>{{language}}</span>
             <span>Updated 10 days ago</span>
           </div>
           <div class="col-3 d-flex justify-content-end">
@@ -216,13 +219,14 @@
           <div class="col-12">
             <div class="row  py-4">
               <div class="col-9 repos">
-                <h5><a href="#">1-2-1-octocats-edwardsrob222</a></h5>
-                <span><i class="fas fa-circle repo-bullet"></i>HTML</span>
+                <h5><a href="#">{{full name}}</a></h5>
+                <span><i class="fas fa-circle repo-bullet"></i>{{language}}</span>
                 <span>Updated 11 days ago</span>
               </div>
               <div class="col-3 d-flex justify-content-end">
                 <button class="btn repo-btn"><i class="fa fa-star"></i>Star</button>
               </div>
+              <!-- {{/each}} -->
     </script>
 
 

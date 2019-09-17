@@ -72,9 +72,9 @@ $(function() {
   let createRepoHTML = (res) => {
     var source = $("#repos").text();
     var template = Handlebars.compile(source);
-    var context = res.data;
+    var context = {repo:res.data};
     var html = template(context);
-    $('.aside-org').html(html);
+    $('.repos').html(html);
   }
 
   getRepoData.done(createRepoHTML);
